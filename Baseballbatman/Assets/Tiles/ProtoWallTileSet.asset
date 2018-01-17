@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c809a30d389584da99420ad268e44d, type: 3}
+  m_Name: ProtoWallTileSet
+  m_EditorClassIdentifier: 
+  solidTile: {fileID: 11400000, guid: 20405f40ec66d144ca3f3a9ae3e18478, type: 2}
+  transparentTile: {fileID: 11400000, guid: 09e01a44f95056643a23f2fabdbc5f67, type: 2}
+  solidCollider:
+  - {x: -0.5, y: -0.5}
+  - {x: 0.5, y: -0.5}
+  transparentCollider:
+  - {x: -0.5, y: 0.5}
+  - {x: 0.5, y: 0.5}
