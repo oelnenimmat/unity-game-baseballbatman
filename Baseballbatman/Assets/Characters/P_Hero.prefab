@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input:
-    controldevice: 0
+    controldevice: 3
   cameraMoveDamping: 0.5
   attackCollider: {fileID: 58733849513436450}
   attackCircle: {fileID: 212747991723562898}
